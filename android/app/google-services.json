@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "762028448106",
+    "project_id": "cataloguer-flutter",
+    "storage_bucket": "cataloguer-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762028448106:android:9771839c44d3814dcded13",
+        "android_client_info": {
+          "package_name": "com.example.cataloguer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762028448106-68d22bd7ktsjhad2pqfci51s6fu6jqb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3sgGgY4Sm6-mpvHCEyiSW36KilRszBTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762028448106-68d22bd7ktsjhad2pqfci51s6fu6jqb1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "762028448106-h6gi5nm363f8kug5pceiclhdpmu26kca.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cataloguer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

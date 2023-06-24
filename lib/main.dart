@@ -21,8 +21,22 @@ Future<void> main() async {
   Map<String, dynamic>? departments_ = (tempData.exists)
       ? tempData.data()
       : {
-          "Cleaning": ["Soap", "Toothpaste", "Cleaners", "Hygenie"],
-          "Flower": ["Filler", "Vase", "Decoration", "Single", "Bunch", "Vine"],
+          "Cleaning": [
+            "Soap",
+            "Toothpaste",
+            "Cleaners",
+            "Hygenie",
+            "Laundry",
+            "Brooms/Brushes/Mops"
+          ],
+          "Flower": [
+            "Filler",
+            "Vase",
+            "Accessories",
+            "Single",
+            "Bunch",
+            "Vine"
+          ],
           "Gardeneing": ["Seeds", "Pots", "Tools"],
           "Hardware": [
             "Tools",
@@ -34,13 +48,27 @@ Future<void> main() async {
             "Flooring",
             "Ropes/Chains",
             "Mesh",
+            "PPE",
+            "Rainware",
+            "Plumbing",
           ],
           "Kitchenware": [
             "Utensils",
+            "Organizers",
             "Glass",
             "Cookware",
             "Plates",
-            "Decore",
+            "Containers",
+            "Bottles",
+            "Organizers",
+            "Cleaning",
+            "Jars",
+            "Baskets",
+            "Plastic",
+            "Cups",
+            "Ceramics",
+            "Baking",
+            "Basins/Sieves",
           ],
           "Party": [
             "Birthday",
@@ -58,13 +86,21 @@ Future<void> main() async {
             "Independence",
             "Mashrimani",
           ],
-          "Plastic": ["Containers", "Cutlery", "Utensils", "Cooking"],
           "Wedding": [
             "Bouquet",
             "Invitations",
             "Broach",
             "Decorations",
             "Jewellery",
+          ],
+          "Stationary": [
+            "Writing/Drawing",
+            "Books",
+            "Arts&Crafts",
+            "Math",
+            "Office",
+            "Charts",
+            "School",
           ]
         };
 
